@@ -56,7 +56,12 @@ body{
     padding: 15px 60px;
     border-radius: 30px;
     color: hsl(257, 40%, 49%);
-    box-shadow: 0 0 5px hsl(0, 0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+
+.info .button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%);
 }
 
 .footer{
@@ -81,4 +86,10 @@ body{
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer i:hover{
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
 }
