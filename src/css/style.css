@@ -41,14 +41,14 @@ body{
 .info .title{
     font-size: 48px;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: hsl(0, 0%, 100%);
 }
 
 .info .description{
     color: hsl(0, 0%, 100%);
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .info .button{
@@ -69,7 +69,7 @@ body{
     justify-content: flex-end;
 }
 
-.footer ul{
+.footer .social{
     display: flex;
     justify-content: space-between;
     align-items: center;
